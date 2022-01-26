@@ -11,12 +11,16 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
-console.log(txtInput)
+// outputDiv.innerText= "shyam patidar";
+
+// console.log(outputDiv)
 
 function clicHandler() {
-    console.log("clicked!");
-    console.log("input" , txtInput.value);
+    outputDiv.innerText = "amnbmnabm " + txtInput.value;
+    // console.log("clicked!");
+    // console.log("input" , txtInput.value);
 };
 
 btnTranslate.addEventListener("click", clicHandler)
