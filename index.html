@@ -11,8 +11,9 @@
             width: 80%;
             height: 10vh;
             display: block;
-            margin: 1rem;
+            margin: auto;
             padding: 1rem;
+            border-top-left-radius: 1rem;
         }
 
         #output{
@@ -20,32 +21,42 @@
             height: 10vh;
             width: 80%;
             padding: 1rem;
-            margin: 1rem;
+            margin: auto;
+            border-top-left-radius: 1rem;
 
         }
         h1{
-            padding-left: 1rem;
+            padding: 2rem;
             text-align:center;
             background-color: yellow;
+            
         }
+
         button{
-            /* padding-right: 2rem; */
-            /* text-align: center; */
-            border:  ;
+          margin: auto;
+          display:block;
+          border-radius: 0.5rem;
         
+        }
+        #put{
+            text-align: center;
+            font-size: larger;
         }
     </style>
 </head>
 
 <body>
-     
+    
         <h1> talk bananaaa</h1>
-     
-  
+    <br>
+
     <textarea id="txt-input"
         placeholder="put your sentance in English here and we will convert it to banana"></textarea>
+        <br>
     <button id="btn-translate">translate to banana</button>
-    <div style="font-size: larger">Output will come here 👇</div>
+    <br><BR>
+    <div id="put">Output will come here 👇</div>
+    <br>
     <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
