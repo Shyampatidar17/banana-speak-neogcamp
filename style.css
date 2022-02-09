@@ -1,0 +1,60 @@
+body {
+    margin: 0% auto;
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+
+
+}
+
+nav {
+    /* font-size: 1.5rem; */
+    padding: 1rem;
+    text-align: center;
+    background-color: #F2C94C;
+    border-bottom-left-radius: 1rem;
+
+}
+
+
+button {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    background-color: #F2C94C;
+    border: #F2C94C;
+
+}
+
+#put {
+    text-align: center;
+    font-size: larger;
+}
+
+footer {
+    border: 1px solid #F2C94C;
+    border-top-left-radius: 1rem;
+    text-align: center;
+    background-color: #F2C94C;
+
+
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
